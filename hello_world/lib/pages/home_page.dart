@@ -159,21 +159,7 @@ class _HomePageState extends State<HomePage> {
     super.dispose();
   }
 
-  // _onEntryChanged(Event event) {
-  //   var oldEntry = _todoList.singleWhere((entry) {
-  //     return entry.key == event.snapshot.key;
-  //   });
-
-  //   setState(() {
-  //     _todoList[_todoList.indexOf(oldEntry)] = Todo.fromSnapshot(event.snapshot);
-  //   });
-  // }
-
-  // _onEntryAdded(Event event) {
-  //   setState(() {
-  //     _todoList.add(Todo.fromSnapshot(event.snapshot));
-  //   });
-  // }
+  
 
   _signOut() async {
     try {
